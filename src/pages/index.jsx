@@ -8,6 +8,7 @@ import { Interface } from "./components/Interface";
 import { MotionConfig } from "framer-motion";
 import { Leva } from "leva";
 import { framerMotionConfig } from "./config";
+import './index.css'
 
 export default function Resume() {
     const [section, setSection] = useState(0);
