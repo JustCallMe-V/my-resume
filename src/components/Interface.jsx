@@ -52,7 +52,7 @@ const AboutSection = (props) => {
             whileInView={{ opacity: 1, y: 0}}
             transition={{ duration: 1, delay: 2 }}
         >
-            <span className="leading-snug font-extrabold">Developpeur Full Stack</span> en devenir!
+            <span className="leading-snug font-extrabold">Developpeur Full Stack + Pentester</span> en devenir!
             <br />
             Bienvenue sur mon espace! Vous y retrouverez mon parcours et<br />
             un aperçu de mes divers projets.
@@ -234,7 +234,7 @@ const ProjectsSection = () => {
         <Section>
             <div className="flex w-full h-full gap-8  items-center justify-center">
                 <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={previousProject}>← Previous</button>
-                <h2 className="bg-white text-4xl font-extrabold  px-1 italic">Projects</h2>
+                <h2 className="bg-white text-4xl font-extrabold  px-1 italic">Projets et Realisations</h2>
                 <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={nextProject}>Next →</button>
             </div>
         </Section>

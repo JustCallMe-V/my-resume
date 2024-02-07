@@ -8,16 +8,16 @@ import PortfolioScreen from "@/../public/img/portfolio_screen.jpg"
 
 export const projects = [
     {
-        title: "Resume Website",
-        url: "someurl",
+        title: "MyResume",
+        url: "https://github.com/JustCallMe-V/my-resume",
         image: PortfolioScreen?.src,
-        desc: "My resume"
+        desc: "Mon CV en ligne"
     },
    {
         title: "Google Cybersecurity",
         url: "https://www.coursera.org/professional-certificates/google-cybersecurity",
         image: "https://img.icons8.com/color/480/google-logo.png",
-        desc: "A cybersec cert"
+        desc: "Certification CyberSec"
     }
 ]
 
