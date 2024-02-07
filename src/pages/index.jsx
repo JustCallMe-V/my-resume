@@ -10,6 +10,9 @@ import { Leva } from "leva";
 import { framerMotionConfig } from "../config";
 import './index.css'
 
+
+export const getStaticProps = () => ({props: {}})
+
 export default function Resume() {
     const [section, setSection] = useState(0);
     const [menuOpened, setMenuOpened] = useState(false);
