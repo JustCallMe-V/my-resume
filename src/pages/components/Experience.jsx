@@ -39,6 +39,7 @@ export const Experience = (props) => {
   }, [menuOpened]);
 
   useFrame( (state) => {
+    console.log(cameraLookAtX.get());
     state.camera.position.x = cameraPosX.get();
     state.camera.lookAt(cameraLookAtX.get(), 0, 0);
     let curSection = Math.floor(data.scroll.current * data.pages);

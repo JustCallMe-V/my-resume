@@ -4,12 +4,13 @@ import { animate, useMotionValue } from "framer-motion";
 import { motion } from "framer-motion-3d";
 import { atom, useAtom } from "jotai";
 import { useEffect, useRef } from "react";
+import PortfolioScreen from "@/../public/img/portfolio_screen.jpg"
 
 export const projects = [
     {
         title: "Resume Website",
         url: "someurl",
-        image: "/public/img/portfolio_screen.jpg",
+        image: PortfolioScreen?.src,
         desc: "My resume"
     },
    {
