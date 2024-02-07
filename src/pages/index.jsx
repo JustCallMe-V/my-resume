@@ -1,13 +1,13 @@
 import { useState, useEffect } from "react"
 import { Canvas } from "@react-three/fiber";
-import { Experience } from "./components/Experience";
+import { Experience } from "../components/Experience";
 import { Scroll, ScrollControls } from "@react-three/drei";
-import { Menu } from "./components/Menu";
-import { ScrollManager } from "./components/ScrollManager";
-import { Interface } from "./components/Interface";
+import { Menu } from "../components/Menu";
+import { ScrollManager } from "../components/ScrollManager";
+import { Interface } from "../components/Interface";
 import { MotionConfig } from "framer-motion";
 import { Leva } from "leva";
-import { framerMotionConfig } from "./config";
+import { framerMotionConfig } from "../config";
 import './index.css'
 
 export default function Resume() {
