@@ -56,7 +56,7 @@ const AboutSection = (props) => {
             <br />
             Bienvenue sur mon espace! Vous y retrouverez mon parcours et<br />
             un aperçu de mes divers projets.
-            <br />Direction GitHub pour en savoir plus!    
+            <br />Direction <a href="https://github.com/JustCallMe-V" className="font-bold">Github</a> pour en savoir plus!    
         </motion.p>
         <motion.button onClick={() => setSection(3)}className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16">Prenons Contact</motion.button>
     </Section>
