@@ -9,7 +9,7 @@ export const projects = [
     {
         title: "Resume Website",
         url: "someurl",
-        image: "public/img/portfolio_screen.jpg",
+        image: "/public/img/portfolio_screen.jpg",
         desc: "My resume"
     },
    {
