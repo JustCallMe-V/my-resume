@@ -233,9 +233,9 @@ const ProjectsSection = () => {
     return (
         <Section>
             <div className="flex w-full h-full gap-8  items-center justify-center">
-                <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={previousProject}>← Previous</button>
+                <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={previousProject}>← Precedent</button>
                 <h2 className="bg-white text-4xl font-extrabold  px-1 italic">Projets et Realisations</h2>
-                <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={nextProject}>Next →</button>
+                <button className="bg-yellow-600 text-white py-4 px-8 rounded-lg font-bold text-lg mt-16" onClick={nextProject}>Suivant →</button>
             </div>
         </Section>
     );
